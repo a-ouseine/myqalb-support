@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MyQalb Support</title>
+<style>
+  :root {
+    --bg: #FBF1E7;
+    --bg-deep: #F3E3D3;
+    --card: #FFF9F0;
+    --border: #DCC3AE;
+    --text: #3A1418;
+    --text-secondary: #7A4B52;
+    --text-tertiary: #9A7A70;
+    --accent: #A80B29;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 20px 40px;
+  }
+  .wrap { width: 100%; max-width: 560px; }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .brand-mark {
+    width: 34px; height: 34px;
+    border-radius: 10px;
+    background: var(--accent);
+    color: #FFF3F0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex: none;
+  }
+  .brand-name { font-size: 17px; font-weight: 700; letter-spacing: -0.2px; }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    letter-spacing: -0.4px;
+  }
+  .lede {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    margin: 0 0 32px;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .card h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-tertiary);
+    margin: 0 0 12px;
+    font-weight: 700;
+  }
+  .card p {
+    margin: 0 0 8px;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text-secondary);
+  }
+  .card p:last-child { margin-bottom: 0; }
+
+  .email-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--accent);
+    color: #FFF3F0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 22px;
+    border-radius: 12px;
+    margin-top: 4px;
+  }
+
+  ul { margin: 0; padding-left: 18px; }
+  li {
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+  }
+  li:last-child { margin-bottom: 0; }
+
+  footer {
+    margin-top: 32px;
+    font-size: 13px;
+    color: var(--text-tertiary);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-mark">♥</div>
+      <div class="brand-name">MyQalb</div>
+    </div>
+
+    <h1>Support</h1>
+    <p class="lede">Questions, bug reports, or feedback about MyQalb — reach out and we'll get back to you.</p>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>The fastest way to reach us is by email. Include your device model and iOS version if you're reporting a bug.</p>
+      <a class="email-btn" href="mailto:aobworks99@gmail.com">Email aobworks99@gmail.com</a>
+    </div>
+
+    <div class="card">
+      <h2>Common questions</h2>
+      <ul>
+        <li><strong>Prayer times look wrong.</strong> Check that Location access is enabled for MyQalb in Settings → Privacy &amp; Security → Location Services, then reopen the app.</li>
+        <li><strong>Subscription or billing issue.</strong> Subscriptions are managed entirely by Apple — refunds and billing questions go through Settings → [your name] → Subscriptions on your device, or reportaproblem.apple.com.</li>
+        <li><strong>Prayer Focus / app blocking isn't pausing apps.</strong> Make sure Screen Time access is granted (Prayer Focus → Enable Screen Time) and that you've selected at least one app to pause.</li>
+        <li><strong>Something else.</strong> Email us — we read every message.</li>
+      </ul>
+    </div>
+
+    <footer>MyQalb</footer>
+  </div>
+</body>
+</html>
